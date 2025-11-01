@@ -1,0 +1,9 @@
+version: '3'
+services:
+  hipa_bot:
+    build: .
+    container_name: hipa_bot
+    restart: unless-stopped
+    environment:
+      - BOT_TOKEN=7819901403:AAGbY15x2HiknkmWHUOqIj7hdXUs6STSGGo
+      - ADMIN_ID=5839496652
