@@ -11,7 +11,7 @@ import os
 
 # ------------------------------
 BOT_TOKEN = "7819901403:AAGbY15x2HiknkmWHUOqIj7hdXUs6STSGGo"   # Tokenni shu yerga yozing
-ADMIN_ID = 5839496652             # Sizning admin ID
+ADMIN_ID = 5027912447              # Sizning admin ID
 # ------------------------------
 
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode="HTML"))
